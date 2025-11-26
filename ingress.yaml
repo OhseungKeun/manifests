@@ -2,13 +2,13 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: django-ingress
+  namespace: django
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: / 
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx   
+  ingressClassName: nginx
   rules:
-    - host: django.example.com
-      http:
+    - http:  # Host 필드를 지워서 IP 접속 허용
         paths:
           - path: /
             pathType: Prefix
