@@ -15,7 +15,6 @@ spec:
     spec:
       containers:
         - name: django
-          # [핵심] 테스트를 위해 일부러 구버전(v1.0.33)으로 설정합니다.
           image: sbe03011/django-app:v1.0.33
           ports:
             - containerPort: 8000
