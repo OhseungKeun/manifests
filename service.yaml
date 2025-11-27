@@ -6,7 +6,7 @@ metadata:
   labels:
     app: django-app
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: django-app
   ports:
