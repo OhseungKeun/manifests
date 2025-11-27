@@ -1,3 +1,4 @@
 kustomize:
   images:
   - sbe03011/django-app:v1.0.39
+  - sbe03011/change-app:v1.0.2
