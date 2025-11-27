@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - http:  # Host 필드를 지워서 IP 접속 허용
+    - http: 
         paths:
           - path: /
             pathType: Prefix
