@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - sbe03011/change-app:v1.0.2
