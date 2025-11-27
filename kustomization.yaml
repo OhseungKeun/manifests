@@ -2,6 +2,7 @@ resources:
   - deployment.yaml
   - service.yaml
   - ingress.yaml
+  - metallb-config.yaml
 
 images:
   - name: sbe03011/django-app
