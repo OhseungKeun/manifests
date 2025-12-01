@@ -8,8 +8,8 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: django-app
-  minReplicas: 2   
-  maxReplicas: 10   
+  minReplicas: 2
+  maxReplicas: 10
   metrics:
   - type: Resource
     resource:
@@ -17,3 +17,4 @@ spec:
       target:
         type: Utilization
         averageUtilization: 70
+
