@@ -4,6 +4,7 @@ resources:
   - ingress.yaml
   - metallb-config.yaml
   - metallb-sub.yaml
+  - hpa.yaml
 
 images:
   - name: sbe03011/django-app
