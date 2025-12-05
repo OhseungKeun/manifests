@@ -9,7 +9,7 @@ resources:
 images:
   - name: sbe03011/django-app
     newName: sbe03011/django-app
-    newTag: v1.0.0
+    newTag: ""
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
