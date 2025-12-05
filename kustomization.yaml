@@ -7,7 +7,7 @@ resources:
   - hpa.yaml
 
 images:
-  - name: sbe03011/django-app:v1.0.0
+  - name: sbe03011/django-app
     newName: sbe03011/django-app
     newTag: ""
 
