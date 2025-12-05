@@ -7,9 +7,9 @@ resources:
   - hpa.yaml
 
 images:
-  - name: sbe03011/django-app
+  - name: sbe03011/django-app:v1.0.0
     newName: sbe03011/django-app
-    newTag: ""
+
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
