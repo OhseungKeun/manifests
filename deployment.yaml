@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: django
-          image: sbe03011/django-app
+          image: sbe03011/django-app:latest
           ports:
             - containerPort: 8000
           resources:
